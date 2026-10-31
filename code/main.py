@@ -241,7 +241,7 @@ class Game:
 
     def setup(self):
         game_map = load_pygame(
-            join("..", "data", "maps", "world2.tmx")
+            join("..", "data", "maps", "world.tmx")
         )
 
         for x, y, image in game_map.get_layer_by_name('Ground').tiles():
